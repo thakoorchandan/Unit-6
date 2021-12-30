@@ -1,0 +1,97 @@
+/* Navigation Bar */
+.navBar {
+  height: 60px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px 450px 900px 400px;
+  z-index: 999;
+}
+
+.navBar > img {
+  float: left;
+  height: 80px;
+  width: 120px;
+}
+
+/* New Post Button */
+#New_Post_Button {
+  height: 50px;
+  width: 170px;
+  padding-left: 10px;
+  margin-top: 15px;
+  background-color: #1bb76e;
+  float: left;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+#New_Post_Button > button {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Input Box */
+.searchBox {
+  border: 2px solid rgba(0, 0, 0, 0.26);
+  height: 50px;
+  width: 550px;
+  margin: auto;
+  margin-top: 15px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.navBar_Input {
+  height: 100%;
+  width: 90%;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+}
+::placeholder {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.561);
+}
+
+#searchIcon {
+  position: absolute;
+  font-size: 35px;
+  margin-top: 5px;
+  color: black;
+}
+
+/* Button Grid */
+.buttonsGrid {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.buttonsGrid :nth-child(1) {
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.buttonsGrid :nth-child(2) {
+  background-color: #6432f9;
+}
+.buttonsGrid :nth-child(3) {
+  background-color: transparent;
+  color: black;
+  border: 0;
+  outline: 0;
+}
+.buttonsGrid :nth-child(4) {
+  background-color: #1bb76e;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 30px;
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+}

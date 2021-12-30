@@ -1,0 +1,41 @@
+* {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  height: auto;
+  width: 70%;
+  margin: auto;
+}
+
+#name {
+  margin: 30px 0 0 20px;
+  width: 80%;
+  height: 40px;
+}
+
+#btnClick {
+  height: 45px;
+  width: 12%;
+}
+
+#error {
+  color: red;
+  margin-left: 30px;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.list {
+  margin: auto;
+  margin-top: 30px;
+  height: 40px;
+  width: 80%;
+}
+
+.remove {
+  float: right;
+  margin-right: 50px;
+}
